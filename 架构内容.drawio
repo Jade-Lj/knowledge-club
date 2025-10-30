@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="28.2.8">
+  <diagram name="第 1 页" id="uiua6mptLlUUmeAe40tH">
+    <mxGraphModel dx="1213" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f3hf5oja9mnKR4jZ640O-18" value="系统架构" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="490" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-18">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-20" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-19">
+          <mxGeometry width="109" height="30" as="geometry">
+            <mxRectangle width="109" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-21" value="&lt;span&gt;FreeRTOS系统。 task_start --&amp;gt;&amp;nbsp; 不同task&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-19">
+          <mxGeometry x="109" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-18">
+          <mxGeometry y="60" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-23" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-22">
+          <mxGeometry width="109" height="80" as="geometry">
+            <mxRectangle width="109" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-24" value="event管理器。每个event可注册回调函数，分发事件，通过链表管理。(得自己理清原理。不然这样根本记不住)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-22">
+          <mxGeometry x="109" width="381" height="80" as="geometry">
+            <mxRectangle width="381" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-18">
+          <mxGeometry y="140" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-26" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-25">
+          <mxGeometry width="109" height="30" as="geometry">
+            <mxRectangle width="109" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-27" value="回调函数，回调处理机制。轮询收发机制" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-25">
+          <mxGeometry x="109" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-18">
+          <mxGeometry y="170" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-32" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-31">
+          <mxGeometry width="109" height="70" as="geometry">
+            <mxRectangle width="109" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3hf5oja9mnKR4jZ640O-33" value="从哪几个方面来完整了解这个架构...要做到自己捋得清，给人讲得清楚。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;convertToSvg=0;" vertex="1" parent="f3hf5oja9mnKR4jZ640O-31">
+          <mxGeometry x="109" width="381" height="70" as="geometry">
+            <mxRectangle width="381" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
