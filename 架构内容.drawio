@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="28.2.8">
   <diagram name="第 1 页" id="uiua6mptLlUUmeAe40tH">
-    <mxGraphModel dx="1213" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1733" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,6 +218,94 @@
         </mxCell>
         <mxCell id="LzdU1E_vzgDU__mvaLvK-42" value="EventChainTable[&lt;span style=&quot;font-size: 12px;&quot;&gt;EVT_3&lt;/span&gt;]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="LzdU1E_vzgDU__mvaLvK-77">
           <mxGeometry y="112.11538461538461" width="218.7058823529412" height="30.576923076923073" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-99" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="1330" as="sourcePoint" />
+            <mxPoint x="231" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-100" value="长按3s" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-99">
+          <mxGeometry x="0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-104" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LzdU1E_vzgDU__mvaLvK-80" target="LzdU1E_vzgDU__mvaLvK-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-105" value="按下指纹" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-104">
+          <mxGeometry x="-0.16" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-80" value="已锁定" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1330" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-87" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LzdU1E_vzgDU__mvaLvK-81" target="LzdU1E_vzgDU__mvaLvK-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-90" value="验证失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-87">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-81" value="验证中" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-94" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LzdU1E_vzgDU__mvaLvK-82" target="LzdU1E_vzgDU__mvaLvK-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-95" value="5s后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-94">
+          <mxGeometry x="0.2204" y="38" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-82" value="已解锁" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1500" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-96" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LzdU1E_vzgDU__mvaLvK-83" target="LzdU1E_vzgDU__mvaLvK-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-97" value="3s后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-96">
+          <mxGeometry x="0.2371" y="-14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-83" value="错误&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1500" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-101" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LzdU1E_vzgDU__mvaLvK-84" target="LzdU1E_vzgDU__mvaLvK-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-102" value="按下退出键" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-101">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-84" value="管理员模式&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-88" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="LzdU1E_vzgDU__mvaLvK-82">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="260" y="1460" as="sourcePoint" />
+            <mxPoint x="380" y="1460" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzdU1E_vzgDU__mvaLvK-89" value="验证成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="LzdU1E_vzgDU__mvaLvK-88">
+          <mxGeometry x="-0.184" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
