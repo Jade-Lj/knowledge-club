@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="28.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.0.3">
   <diagram name="第 1 页" id="q1iue87fV5vaSqj3Lrxp">
     <mxGraphModel dx="2867" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,7 +356,7 @@
           <mxGeometry x="-327" y="2290" width="246" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yi3Sg7-R5hyUHCGLOBMD-98" value="自我介绍" style="fillColor=#10739E;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1940" width="160" height="30" as="geometry" />
+          <mxGeometry x="726" y="1940" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yi3Sg7-R5hyUHCGLOBMD-99" value="问题" style="fillColor=#F2931E;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="240" y="2105" width="160" height="30" as="geometry" />
@@ -373,8 +373,8 @@
         <mxCell id="Yi3Sg7-R5hyUHCGLOBMD-103" value="Month 6" style="fillColor=#56517E;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-311" y="2275" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yi3Sg7-R5hyUHCGLOBMD-104" value="&lt;font color=&quot;#10739e&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;你好，我叫李洁，硕士毕业于汕头大学。毕业后一直在深圳麦克韦尔科技有限公司担任电子软件工程师岗位，我的工作内容主要三个方面：1、开发部门内部预研项目；2、支持其他部门开发具体产品；3、作为项目负责人自主立项。技术方面：&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;color: light-dark(rgb(16, 115, 158), rgb(84, 169, 206)); background-color: transparent;&quot;&gt;前期主要涉及底层驱动开发比如I2C/UART/SPI/PWM/ADC等，后期接触FreeRTOS开发蓝牙BLE与UI界面。目前在多机异步通信相关项目中基于FreeRTOS+事件管理系统的软件架构方式，负责蓝牙BLE到主机到从机间的业务接口开发。除此之外目前也正作为项目负责人在带一个4G模块的项目，负责项目全流程的内容。我自认为比较有优势的点是：逻辑理解能力与沟通能力。这两点也让我在开发过程中事半功倍。&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(16, 115, 158), rgb(84, 169, 206));&quot;&gt;以上就是我的一个大致情况。&lt;/b&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=left;arcSize=4;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;spacingTop=3;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="10" y="1975" width="600" height="125" as="geometry" />
+        <mxCell id="Yi3Sg7-R5hyUHCGLOBMD-104" value="&lt;font color=&quot;#10739e&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;你好，我叫李洁，硕士毕业于汕头大学。毕业后一直在深圳麦克韦尔科技有限公司担任电子软件工程师岗位，我的工作内容主要三个方面：1、开发部门内部预研项目；2、支持其他部门开发具体产品；3、作为项目负责人自主立项。技术方面：&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;color: light-dark(rgb(16, 115, 158), rgb(84, 169, 206)); background-color: transparent;&quot;&gt;前期主要涉及底层驱动开发比如I2C/UART/SPI/PWM/ADC等，后期接触FreeRTOS开发蓝牙BLE与UI界面。目前在多机异步通信相关项目中基于FreeRTOS+事件管理系统的软件架构方式，负责蓝牙BLE到主机到从机间的业务接口开发。除此之外目前也正作为项目负责人在带一个4G模块的项目，负责项目全流程的内容。&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(16, 115, 158), rgb(84, 169, 206));&quot;&gt;以上就是我的一个大致情况。&lt;/b&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=left;arcSize=4;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;spacingTop=3;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="498" y="1990" width="600" height="125" as="geometry" />
         </mxCell>
         <mxCell id="Yi3Sg7-R5hyUHCGLOBMD-105" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot; color=&quot;#F2931E&quot;&gt;&lt;b&gt;Planning&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;1&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit&lt;/font&gt;&lt;/font&gt;" style="rounded=1;strokeColor=none;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-311" y="2050" width="160" height="70" as="geometry" />
@@ -409,7 +409,7 @@
         <mxCell id="cKaS3IkB06yzKAJPEytP-9" value="&lt;span style=&quot;font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;我非常感谢现公司给我的培养。经过这几年的成长，我明确了自己想在嵌入式软件领域深耕的长期目标。由于当前公司的业务核心在材料科学方向，嵌入式开发并非技术主航道。为了追求更纯粹的嵌入式开发机会和更深入的技术成长，我主动寻求像贵公司这样以嵌入式技术为核心竞争力的平台&lt;/span&gt;" style="rounded=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;arcSize=4;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=12;spacingTop=3;spacing=4;fontColor=#020A33;" parent="1" vertex="1">
           <mxGeometry x="525" y="2220" width="600" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="9HHIjXSr2Vfm9rwx7O29-1" value="问题" style="fillColor=#AE4132;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9HHIjXSr2Vfm9rwx7O29-1" value="问题" style="fillColor=#AE4132;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="668" y="2338" width="300" height="47.5" as="geometry" />
         </mxCell>
       </root>
